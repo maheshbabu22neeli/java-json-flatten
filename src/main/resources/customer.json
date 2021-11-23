@@ -1,0 +1,41 @@
+{
+  "id": "CUS001",
+  "name": "Neeli",
+  "phone": [
+    {
+      "number": "0469001001",
+      "state": "InActive",
+      "type": "Office"
+    },
+    {
+      "number": "0469001002",
+      "state": "Active",
+      "type": "Home"
+    },
+    {
+      "number": "0469001003",
+      "state": "Active",
+      "type": "Mobile"
+    }
+  ],
+  "address": [
+    {
+      "unit": "Unit 100",
+      "street": "Street 100",
+      "country": "Country 100",
+      "type": "permanent"
+    },
+    {
+      "unit": "Unit 101",
+      "street": "Street 101",
+      "country": "Country 101",
+      "type": "current"
+    },
+    {
+      "unit": "Unit 102",
+      "street": "Street 102",
+      "country": "Country 102",
+      "type": "office"
+    }
+  ]
+}
