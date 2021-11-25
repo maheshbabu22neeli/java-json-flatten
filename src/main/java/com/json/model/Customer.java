@@ -15,11 +15,9 @@ public class Customer extends AbstractModel {
 
     private String name;
 
-    @JsonProperty("phone")
-    private List<Phone> phonesList;
+    private List<Phone> phones;
 
-    @JsonProperty("address")
-    private List<Address> addressList;
+    private List<Address> address;
 
     public String getId() {
         return id;
@@ -37,19 +35,19 @@ public class Customer extends AbstractModel {
         this.name = name;
     }
 
-    public List<Phone> getPhonesList() {
-        return phonesList;
+    public List<Phone> getPhones() {
+        return phones;
     }
 
-    public void setPhonesList(final List<Phone> phonesList) {
-        this.phonesList = phonesList;
+    public void setPhones(List<Phone> phones) {
+        this.phones = phones;
     }
 
-    public List<Address> getAddressList() {
-        return addressList;
+    public List<Address> getAddress() {
+        return address;
     }
 
-    public void setAddressList(List<Address> addressList) {
-        this.addressList = addressList;
+    public void setAddress(List<Address> address) {
+        this.address = address;
     }
 }

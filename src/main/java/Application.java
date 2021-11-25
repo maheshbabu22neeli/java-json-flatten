@@ -1,6 +1,7 @@
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ValueNode;
 import com.json.FlattenJson;
+import com.json.UnFlattenJson;
 import com.json.model.Customer;
 import com.json.utils.JsonUtils;
 
@@ -22,6 +23,8 @@ public class Application {
         System.out.println("Flatten Map is ==> " + flattenMap.toString());
 
 
+        Customer remakeCustomer = UnFlattenJson.unFlattenJson(flattenMap);
+        System.out.println("Remake Customer Object ==> " + remakeCustomer.toString());
     }
 
 

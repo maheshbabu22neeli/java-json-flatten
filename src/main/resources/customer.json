@@ -1,7 +1,7 @@
 {
   "id": "CUS001",
   "name": "Neeli",
-  "phone": [
+  "phones": [
     {
       "number": "0469001001",
       "state": "InActive",
